@@ -2,9 +2,11 @@
 
 ## Overview
 
-This is a simple **Task Management Application** created using **Node.js**, **Express.js**, **Plain SQL Queries**, **HTML5**, and **CSS**. The application allows users to perform basic CRUD (Create, Read, Update, Delete) operations on tasks stored in a **MySQL** database.
+This is a simple **Task Management Application** created using **Node.js**, **Express.js**, **Plain SQL Queries** . The application allows users to perform basic CRUD (Create, Read, Update, Delete) operations on tasks stored in a **MySQL** database.
 
 ## Features
+
+List of APIs
 
 1. **Add a Task**: Users can add new tasks with a title and description.
 2. **List Tasks**: All tasks are listed on the main page.
@@ -13,9 +15,8 @@ This is a simple **Task Management Application** created using **Node.js**, **Ex
 
 ## Technology Stack
 
-- **Backend**: Node.js (Express.js)
+- **Backend**: Node.js (Express.js) for Restful APIs
 - **Database**: MySQL (or any SQL database)
-- **Frontend**: HTML5, CSS (basic styling)
 - **Database Queries**: Plain SQL (no ORM)
 
 ## Prerequisites
