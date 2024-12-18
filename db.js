@@ -7,7 +7,7 @@ let connectDb = async () => {
   if (!db) {
     try {
       console.log("connected to mongo db");
-      client = await MongoClient.connect("mongodb://localhost:27017/", {
+      client = await MongoClient.connect("mongodb://localhost:27017", {
         useUnifiedTopology: true,
       });
       console.log(client);
