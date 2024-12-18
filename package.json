@@ -1,0 +1,19 @@
+{
+  "name": "manju-node",
+  "version": "1.0.0",
+  "description": "This is a simple **Task Management Application** created using **Node.js**, **Express.js**, **Plain SQL Queries** . The application allows users to perform basic CRUD (Create, Read, Update, Delete) operations on tasks stored in a **MySQL** database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app":"nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "mongodb": "^6.12.0",
+    "nodemon": "^3.1.9"
+  }
+}
